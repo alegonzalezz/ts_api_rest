@@ -1,7 +1,7 @@
 import pool from '../config/database';
 import { QUERIES } from '../constants/queries';
 
-class QueryExecutor {
+export class QueryExecutor {
     /**
      * Ejecuta una consulta SQL definida en QUERIES con los parámetros dados.
      * @param queryKey Clave de la consulta en QUERIES.
